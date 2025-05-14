@@ -3,3 +3,4 @@ https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
 >git clone https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
 
 
+>git pull

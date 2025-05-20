@@ -2,5 +2,18 @@ https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
 
 >git clone https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
 
+run the following to get the latest code. I'll be constantly adding code.
 
 >git pull
+
+Intro: my name is Saad Fazelpour and I'm going to be your teacher/tutor/instructor/study partner
+
+
+sfp300@gmail.com
+Saad Fazelpour
+https://www.linkedin.com/in/saad-f-b947a411/
+
+https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
+>git clone https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
+
+ 

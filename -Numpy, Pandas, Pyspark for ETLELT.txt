@@ -1,0 +1,8 @@
+-Numpy, Pandas, Pyspark for ETL/ELT preparation step by step
+-Hands on and very little theory
+-pre-requisites: Python, sql(DB), git, computer, internet, a Database like MySql or Mysql workbench
+-one on one
+-Not a beginner course and must have an introductory course in python and sql.
+-course starts easy but at the end we will have optional sections that are professional level and will go very fast.
+-This is a course I wish I had before I start my endeavor with ETL testing
+- This course is about understanding.

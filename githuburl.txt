@@ -19,5 +19,5 @@ https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
  >git add --all
 >git status
 >git commit -m "Description of commit"
->git push - origin main
+>git push -u origin main
 

@@ -1,0 +1,16 @@
+1-My approach is about understanding the fundamentals
+2-Getting to know basic python concepts relevant to this course
+3-Make a transition to Numpy, Pandas,PySpark in each section
+4-Learn and understand the alphabets of Numpy, Pandas, and PySpark
+
+sfp300@gmail.com
+https://github.com/sfp3000/numpy_pandas_Pyspark_tutorials.git
+Django
+Flask
+os
+sys
+
+pandas, PySpark
+
+SQL/Joins
+

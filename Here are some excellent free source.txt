@@ -44,3 +44,32 @@ COCO Dataset → https://cocodataset.org/
 
 Common Crawl → https://commoncrawl.org/
  (web text at massive scale).
+
+
+
+what is data ? 
+Data is anything that I can gather digitially.
+database
+spreadsheet
+pdf file
+image
+
+structured
+	databases
+unstructured:
+	pdf, word, images,
+nosql
+
+volume
+Quality
+Diversity
+Balance
+Representativeness 
+
+
+pipelines
+Collections
+preprocessing 
+splitting ML
+Augmentation
+

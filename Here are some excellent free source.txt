@@ -1,0 +1,46 @@
+Here are some excellent free sources of data online you can use for machine learning, statistics, or general projects:
+
+🌍 General / Multidomain
+
+Kaggle Datasets → https://www.kaggle.com/datasets
+
+Google Dataset Search → https://datasetsearch.research.google.com/
+
+UCI Machine Learning Repository → https://archive.ics.uci.edu/
+
+Awesome Public Datasets (GitHub list) → https://github.com/awesomedata/awesome-public-datasets
+
+📊 Government / Open Data
+
+Data.gov (USA) → https://www.data.gov/
+
+EU Open Data Portal → https://data.europa.eu/
+
+UN Data → http://data.un.org/
+
+World Bank Data → https://data.worldbank.org/
+
+📈 Finance / Economics
+
+Yahoo Finance API (via yfinance in Python) → market and stock data.
+
+FRED (Federal Reserve) → https://fred.stlouisfed.org/
+
+🧠 Science / Tech
+
+OpenML → https://www.openml.org/
+ (datasets for ML experiments)
+
+PhysioNet → https://physionet.org/
+ (biomedical data)
+
+NASA Open Data → https://data.nasa.gov/
+
+📷 Images / NLP
+
+ImageNet → http://www.image-net.org/
+
+COCO Dataset → https://cocodataset.org/
+
+Common Crawl → https://commoncrawl.org/
+ (web text at massive scale).

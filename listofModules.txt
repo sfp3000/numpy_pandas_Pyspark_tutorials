@@ -1,0 +1,260 @@
+Here's a **comprehensive list of essential functions/methods** for the top AI/ML modules:
+
+## **1. NumPy**
+**Array Creation:** `array()`, `zeros()`, `ones()`, `empty()`, `arange()`, `linspace()`, `random.rand()`, `random.randn()`, `eye()`, `identity()`
+**Array Properties:** `shape`, `ndim`, `size`, `dtype`, `astype()`
+**Mathematics:** `add()`, `subtract()`, `multiply()`, `divide()`, `sqrt()`, `exp()`, `log()`, `power()`, `sin()`, `cos()`, `tan()`, `abs()`, `round()`
+**Linear Algebra:** `dot()`, `matmul()`, `transpose()`, `linalg.inv()`, `linalg.det()`, `linalg.eig()`
+**Statistics:** `sum()`, `mean()`, `median()`, `min()`, `max()`, `std()`, `var()`, `percentile()`, `argmin()`, `argmax()`
+**Array Manipulation:** `reshape()`, `flatten()`, `ravel()`, `concatenate()`, `stack()`, `split()`, `sort()`, `copy()`
+**Indexing:** `where()`, Boolean indexing, slicing
+
+## **2. Pandas**
+**I/O:** `read_csv()`, `read_excel()`, `read_json()`, `to_csv()`, `to_excel()`
+**Data Structures:** `DataFrame()`, `Series()`, `Index()`
+**Viewing/Inspecting:** `head()`, `tail()`, `info()`, `describe()`, `shape`, `columns`, `dtypes`, `isnull()`, `notnull()`
+**Selection:** `loc[]`, `iloc[]`, `at[]`, `iat[]`, `[]` (indexing)
+**Data Cleaning:** `dropna()`, `fillna()`, `drop()`, `rename()`, `astype()`
+**Filtering/Sorting:** `sort_values()`, `sort_index()`, Boolean filtering
+**Grouping:** `groupby()`, `agg()`, `transform()`, `apply()`
+**Combining:** `merge()`, `join()`, `concat()`, `append()`
+**Statistics:** `mean()`, `sum()`, `count()`, `min()`, `max()`, `std()`, `var()`, `corr()`, `cov()`
+**Time Series:** `to_datetime()`, `resample()`, `shift()`
+
+## **3. Scikit-learn**
+**Datasets:** `load_iris()`, `load_digits()`, `load_boston()`, `make_classification()`, `make_regression()`
+**Preprocessing:** `StandardScaler()`, `MinMaxScaler()`, `RobustScaler()`, `LabelEncoder()`, `OneHotEncoder()`, `SimpleImputer()`, `PolynomialFeatures()`
+**Model Selection:** `train_test_split()`, `cross_val_score()`, `cross_validate()`, `GridSearchCV()`, `RandomizedSearchCV()`, `learning_curve()`
+**Classification:** `LogisticRegression()`, `SVC()`, `LinearSVC()`, `KNeighborsClassifier()`, `RandomForestClassifier()`, `GradientBoostingClassifier()`, `AdaBoostClassifier()`
+**Regression:** `LinearRegression()`, `Ridge()`, `Lasso()`, `ElasticNet()`, `RandomForestRegressor()`, `GradientBoostingRegressor()`, `SVR()`
+**Clustering:** `KMeans()`, `DBSCAN()`, `AgglomerativeClustering()`, `MeanShift()`
+**Dimensionality Reduction:** `PCA()`, `TruncatedSVD()`, `TSNE()`, `Isomap()`
+**Model Evaluation:** `accuracy_score()`, `precision_score()`, `recall_score()`, `f1_score()`, `confusion_matrix()`, `classification_report()`, `mean_squared_error()`, `r2_score()`, `roc_auc_score()`
+**Model Methods:** `fit()`, `predict()`, `predict_proba()`, `score()`, `transform()`, `fit_transform()`
+
+## **4. TensorFlow/Keras**
+**Models:** `Sequential()`, `Model()` (functional API)
+**Layers:** `Dense()`, `Conv2D()`, `Conv1D()`, `LSTM()`, `GRU()`, `Embedding()`, `Dropout()`, `BatchNormalization()`, `MaxPooling2D()`, `Flatten()`, `Input()`
+**Activations:** `relu`, `sigmoid`, `softmax`, `tanh`, `softplus`, `elu`
+**Losses:** `BinaryCrossentropy()`, `CategoricalCrossentropy()`, `SparseCategoricalCrossentropy()`, `MeanSquaredError()`, `MeanAbsoluteError()`
+**Optimizers:** `Adam()`, `SGD()`, `RMSprop()`, `Adagrad()`, `Adadelta()`
+**Metrics:** `Accuracy()`, `Precision()`, `Recall()`, `AUC()`, `MeanAbsoluteError()`, `MeanSquaredError()`
+**Callbacks:** `EarlyStopping()`, `ModelCheckpoint()`, `ReduceLROnPlateau()`, `TensorBoard()`, `CSVLogger()`
+**Model Methods:** `compile()`, `fit()`, `evaluate()`, `predict()`, `save()`, `load_model()`, `summary()`
+**Data:** `tf.data.Dataset.from_tensor_slices()`, `batch()`, `shuffle()`, `prefetch()`, `map()`
+
+## **5. PyTorch**
+**Tensors:** `tensor()`, `zeros()`, `ones()`, `randn()`, `arange()`, `linspace()`, `eye()`
+**NN Modules:** `nn.Linear()`, `nn.Conv2d()`, `nn.Conv1d()`, `nn.LSTM()`, `nn.GRU()`, `nn.Embedding()`, `nn.Dropout()`, `nn.BatchNorm2d()`, `nn.MaxPool2d()`, `nn.Flatten()`
+**Activations:** `nn.ReLU()`, `nn.Sigmoid()`, `nn.Softmax()`, `nn.Tanh()`, `nn.LeakyReLU()`
+**Loss Functions:** `nn.CrossEntropyLoss()`, `nn.MSELoss()`, `nn.BCELoss()`, `nn.L1Loss()`, `nn.NLLLoss()`
+**Optimizers:** `optim.Adam()`, `optim.SGD()`, `optim.RMSprop()`, `optim.Adagrad()`, `optim.Adadelta()`
+**Data Utilities:** `DataLoader()`, `Dataset()`, `TensorDataset()`, `random_split()`
+**Model Methods:** `forward()`, `backward()`, `zero_grad()`, `step()`, `train()`, `eval()`, `state_dict()`, `load_state_dict()`
+**Tensor Operations:** `backward()`, `item()`, `detach()`, `numpy()`, `to()`, `cuda()`, `cpu()`
+
+## **6. Matplotlib**
+**Plot Types:** `plot()`, `scatter()`, `bar()`, `hist()`, `boxplot()`, `pie()`, `imshow()`, `contour()`, `quiver()`
+**Figure Management:** `figure()`, `subplots()`, `subplot()`, `show()`, `close()`, `savefig()`
+**Axis Customization:** `xlabel()`, `ylabel()`, `title()`, `legend()`, `xlim()`, `ylim()`, `xticks()`, `yticks()`, `grid()`
+**Styling:** `color`, `linestyle`, `marker`, `linewidth`, `alpha`, `fontsize`
+
+## **7. Hugging Face Transformers**
+**Pipelines:** `pipeline()` (text-classification, question-answering, summarization, translation, text-generation)
+**Model Loading:** `from_pretrained()`, `AutoModel`, `AutoTokenizer`, `AutoConfig`
+**Tokenization:** `encode()`, `decode()`, `tokenize()`, `convert_tokens_to_ids()`, `convert_ids_to_tokens()`
+**Model Classes:** `BertModel`, `GPT2Model`, `T5Model`, `DistilBertModel`, `RobertaModel`
+**Training:** `Trainer()`, `TrainingArguments()`, `DataCollator()`
+**Utilities:** `push_to_hub()`, `from_pretrained()`
+
+## **8. OpenCV**
+**Image I/O:** `imread()`, `imwrite()`, `imshow()`, `waitKey()`, `destroyAllWindows()`
+**Image Processing:** `resize()`, `cvtColor()`, `GaussianBlur()`, `medianBlur()`, `bilateralFilter()`, `threshold()`, `adaptiveThreshold()`
+**Drawing:** `rectangle()`, `circle()`, `line()`, `putText()`, `arrowedLine()`
+**Feature Detection:** `Canny()`, `HoughLines()`, `HoughCircles()`, `cornerHarris()`, `goodFeaturesToTrack()`
+**Object Detection:** `CascadeClassifier()`, `detectMultiScale()`, `HOGDescriptor()`
+**Video Processing:** `VideoCapture()`, `VideoWriter()`, `read()`, `write()`
+**Transformations:** `warpAffine()`, `warpPerspective()`, `getRotationMatrix2D()`, `flip()`
+
+## **9. XGBoost**
+**Models:** `XGBClassifier()`, `XGBRegressor()`, `XGBRanker()`, `XGBRFClassifier()`, `XGBRFRegressor()`
+**Training:** `fit()`, `predict()`, `predict_proba()`, `score()`
+**Parameters:** `max_depth`, `learning_rate`, `n_estimators`, `subsample`, `colsample_bytree`, `reg_alpha`, `reg_lambda`
+**Utilities:** `plot_importance()`, `cv()`, `save_model()`, `load_model()`, `DMatrix()`
+
+## **10. LangChain**
+**Models:** `ChatOpenAI()`, `OpenAI()`, `HuggingFacePipeline()`
+**Prompts:** `PromptTemplate()`, `FewShotPromptTemplate()`, `ChatPromptTemplate()`
+**Chains:** `LLMChain()`, `SequentialChain()`, `TransformChain()`, `RouterChain()`
+**Memory:** `ConversationBufferMemory()`, `ConversationSummaryMemory()`, `VectorStoreRetrieverMemory()`
+**Indexes:** `VectorstoreIndexCreator()`, `RetrievalQA()`, `VectorStore()`
+**Agents:** `initialize_agent()`, `AgentType`, `Tool()`, `AgentExecutor()`
+**Document Loaders:** `TextLoader()`, `PDFPlumberLoader()`, `WebBaseLoader()`, `DirectoryLoader()`
+
+This comprehensive list covers **95% of functions you'll encounter in real-world AI/ML projects** across these essential 
+
+libraries.
+
+Here's a **comprehensive list of essential PySpark functions/methods**:
+
+## **1. SparkSession & Context**
+- `SparkSession.builder` - Create Spark session
+- `spark.sql()` - Execute SQL queries
+- `spark.read` - Read data sources
+- `spark.createDataFrame()` - Create DataFrame from data
+- `spark.stop()` - Stop Spark session
+- `sparkContext` - Access low-level Spark context
+
+## **2. DataFrame Creation & I/O**
+**Reading:**
+- `read.csv()` - Read CSV files
+- `read.parquet()` - Read Parquet files
+- `read.json()` - Read JSON files
+- `read.text()` - Read text files
+- `read.jdbc()` - Read from JDBC sources
+- `read.table()` - Read Hive tables
+
+**Writing:**
+- `write.csv()` - Write to CSV
+- `write.parquet()` - Write to Parquet
+- `write.json()` - Write to JSON
+- `write.saveAsTable()` - Save as Hive table
+- `write.mode()` - Specify save mode (overwrite, append, etc.)
+
+## **3. DataFrame Inspection & Basic Operations**
+- `show()` - Display DataFrame content
+- `printSchema()` - Show schema
+- `columns` - Get column names
+- `dtypes` - Get column data types
+- `count()` - Row count
+- `describe()` - Summary statistics
+- `head()`, `first()`, `take()` - Get first rows
+- `cache()`, `persist()` - Cache DataFrame
+- `unpersist()` - Remove from cache
+
+## **4. Column Operations & Expressions**
+**Column Creation:**
+- `col()` - Reference a column
+- `lit()` - Create literal column
+- `expr()` - Execute SQL expression
+
+**Built-in Functions:**
+- `when().otherwise()` - Conditional logic
+- `isNull()`, `isNotNull()` - Null checks
+- `isin()` - Check if value in list
+- `between()` - Range check
+
+## **5. Data Transformation & Manipulation**
+**Selection & Filtering:**
+- `select()` - Select columns
+- `filter()`, `where()` - Filter rows
+- `drop()` - Remove columns
+- `withColumn()` - Add/modify columns
+- `withColumnRenamed()` - Rename columns
+
+**Aggregation:**
+- `groupBy()` - Group data
+- `agg()` - Aggregate functions
+- `rollup()` - Create rollups
+- `cube()` - Create cubes
+- `pivot()` - Pivot data
+
+**Window Functions:**
+- `Window.partitionBy()` - Define window partitions
+- `Window.orderBy()` - Define window ordering
+- `Window.rowsBetween()` - Define row range
+- `row_number()` - Row number in window
+- `rank()`, `dense_rank()` - Ranking functions
+- `lag()`, `lead()` - Access previous/next rows
+
+## **6. String Functions**
+- `lower()`, `upper()` - Case conversion
+- `trim()`, `ltrim()`, `rtrim()` - Remove whitespace
+- `substring()` - Extract substring
+- `split()` - Split string into array
+- `concat()`, `concat_ws()` - Concatenate strings
+- `regexp_extract()` - Extract using regex
+- `regexp_replace()` - Replace using regex
+- `length()` - String length
+
+## **7. Date/Time Functions**
+- `current_date()`, `current_timestamp()` - Current date/time
+- `to_date()` - Convert to date
+- `to_timestamp()` - Convert to timestamp
+- `date_format()` - Format date
+- `year()`, `month()`, `day()` - Date parts
+- `hour()`, `minute()`, `second()` - Time parts
+- `datediff()` - Date difference
+- `add_months()` - Add months to date
+- `last_day()` - Last day of month
+
+## **8. Mathematical Functions**
+- `abs()` - Absolute value
+- `sqrt()` - Square root
+- `exp()`, `log()` - Exponential and logarithm
+- `round()` - Round numbers
+- `ceil()`, `floor()` - Ceiling and floor
+- `sin()`, `cos()`, `tan()` - Trigonometric functions
+- `rand()` - Random numbers
+
+## **9. Collection Functions**
+- `array()` - Create array
+- `array_contains()` - Check array contents
+- `explode()` - Explode array to rows
+- `size()` - Collection size
+- `sort_array()` - Sort array
+- `map()` - Create map
+- `map_keys()`, `map_values()` - Map operations
+
+## **10. DataFrame Joins & Combinations**
+- `join()` - Join DataFrames
+- `crossJoin()` - Cross join
+- `union()`, `unionAll()` - Combine DataFrames
+- `unionByName()` - Union by column names
+- `intersect()` - Intersection of DataFrames
+- `except()` - Difference of DataFrames
+
+## **11. Data Cleaning & Handling**
+- `fillna()` - Fill null values
+- `dropna()` - Drop null values
+- `replace()` - Replace values
+- `na.fill()` - Fill nulls (alternative)
+- `na.drop()` - Drop nulls (alternative)
+
+## **12. Advanced Analytics & ML**
+**Statistical:**
+- `stat()` - Statistical functions
+- `corr()` - Correlation
+- `cov()` - Covariance
+- `crosstab()` - Cross tabulation
+- `freqItems()` - Frequent items
+
+**ML Integration:**
+- `VectorAssembler()` - Create feature vectors
+- `StringIndexer()` - Encode strings to indices
+- `OneHotEncoder()` - One-hot encoding
+- `StandardScaler()` - Standardize features
+
+## **13. Performance & Optimization**
+- `repartition()` - Repartition DataFrame
+- `coalesce()` - Reduce partitions
+- `distinct()`, `dropDuplicates()` - Remove duplicates
+- `orderBy()`, `sort()` - Sort data
+- `hint()` - Provide optimization hints
+- `explain()` - Show execution plan
+
+## **14. UDFs (User Defined Functions)**
+- `udf()` - Create UDF
+- `pandas_udf()` - Pandas UDF (vectorized)
+- `register()` - Register UDF for SQL
+
+## **15. Structured Streaming**
+- `readStream` - Read streaming data
+- `writeStream` - Write streaming output
+- `outputMode()` - Output mode (append, complete, update)
+- `trigger()` - Trigger interval
+- `awaitTermination()` - Wait for stream termination
+
+This comprehensive list covers **95% of PySpark functions** used in real-world big data processing, ETL pipelines, and analytics workloads.
+
+

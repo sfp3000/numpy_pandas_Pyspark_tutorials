@@ -1,0 +1,31 @@
+[
+  {
+    "employee": {
+      "name": "Alice",
+      "details": {
+        "age": 25,
+        "department": "Engineering"
+      },
+      "skills": [
+        "Python",
+        "Spark",
+        "SQL"
+      ]
+    },
+    "salary": 75000.5
+  },
+  {
+    "employee": {
+      "name": "Bob",
+      "details": {
+        "age": 30,
+        "department": "Marketing"
+      },
+      "skills": [
+        "Marketing",
+        "Analytics"
+      ]
+    },
+    "salary": 65000.75
+  }
+]

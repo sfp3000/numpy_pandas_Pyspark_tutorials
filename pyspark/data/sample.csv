@@ -1,0 +1,6 @@
+name,age,city,salary,active
+Alice,25,New York,75000.5,True
+Bob,30,San Francisco,85000.75,False
+Charlie,35,Chicago,65000.25,True
+Diana,28,Boston,90000.0,True
+Eve,32,Seattle,80000.5,False
